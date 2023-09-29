@@ -1,21 +1,28 @@
 body{
-    background-color:aqua ;
+    background:url("suppu.jpg") no-repeat fixed ;
+    background-size: cover;
     margin:0%;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 #form{
     width:400px;
     margin:20vh;
-    background-color:aquamarine;
+    background:rgba(255, 255,255,0.1);
+    backdrop-filter: blur(10px);
     border-radius: 5px;
     padding: 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 h2{
     text-align: center;
     color: black;
 }
 #form button{
-    background-color:aqua;
+    background:rgba(255, 255,255,0.1);
     color:white;
     border: 1px solid black;
     border-radius: 5px;
